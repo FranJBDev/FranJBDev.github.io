@@ -82,7 +82,8 @@ main > section {
 }
 
 .bg-blue {
-  background-color: #18423;
+  background-color: #f0ffff;
+  /* #18423; */
 }
 
 /* Sweep To Right */

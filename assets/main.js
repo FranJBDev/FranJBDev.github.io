@@ -3,6 +3,7 @@
 /* ========================================================================= */
 
 jQuery(window).load(function () {
+  console.log('preloader');
   $('#preloader').fadeOut('slow');
 });
 
