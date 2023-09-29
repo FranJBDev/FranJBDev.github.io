@@ -11,6 +11,12 @@
   <!--<!
   [endif]--><head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <link type="text/css" rel="stylesheet" href="assets/style1.css" />
+
+    <!-- <link type="text/css" rel="stylesheet" href="assets/css.css" /> -->
+    <!-- <link type="text/css" rel="stylesheet" href="assets/css_002.css" /> -->
+
     <!-- meta character set -->
     <meta charset="utf-8" />
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -21,12 +27,9 @@
     </title>
     <!-- Meta Description -->
     <link rel="icon" href="assets/img/triangulo%20tdm.png" type="image/png" />
-    
-    <!--<script src="assets/all_002.js" async="" crossorigin="anonymous"></script> -->
-    <!-- <script id="facebook-jssdk" src="assets/all.js"></script> -->
-    <!-- <script async="" src="assets/f_003.txt"></script> -->
-   
-    <!-- <script src="assets/share-face.js"></script> -->
+
+    <!-- No estoy seguro si es util -->
+    <script async="" src="assets/f_003.txt"></script>
 
     <!-- Adaptacion de Celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -43,35 +46,30 @@
 		================================================== -->
 
     <!-- Fontawesome Icon font -->
+    <!-- <link rel="stylesheet" href="assets/font-awesome.min.css" /> -->
     <link
-      rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
-      <!-- bootstrap.min-->
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <!-- bootstrap.min-->
     <link rel="stylesheet" href="assets/jquery.fancybox.css" />
     <!-- bootstrap.min -->
     <link rel="stylesheet" href="assets/bootstrap.min.css" />
     <!-- bootstrap.min -->
     <link rel="stylesheet" href="assets/owl.carousel.css" />
-    <!-- bootstrap.min -->
+    <!-- antiguo slider -->
     <link rel="stylesheet" href="assets/slit-slider.css" />
     <!-- bootstrap.min -->
     <link rel="stylesheet" href="assets/animate.css" />
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/main.css" />
 
-    <!-- <link rel="stylesheet" href="assets/fb.css" /> -->
-
-  <!-- <style
-  type="text/css"
-  data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe"
-  >
-  </style> -->
-
-
     <!-- Modernizar para viejos buscadores -->
     <script src="assets/modernizr-2.6.2.min.js"></script>
     <script src="assets/utils.js"></script>
     <script src="assets/Chart.bundle.js"></script>
     <script src="assets/barChartData.js"></script>
+
     <style>
       canvas {
         -moz-user-select: none;
@@ -85,6 +83,7 @@
         margin-right: 0px;
       }
     </style>
+
     <meta
       http-equiv="origin-trial"
       content="A7CQXglZzTrThjGTBEn1rWTxHOEtkWivwzgea+NjyardrwlieSjVuyG44PkYgIPGs8Q9svD8sF3Yedn0BBBjXAkAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="
@@ -105,16 +104,12 @@
       http-equiv="origin-trial"
       content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="
     />
-
-    
   </head>
 
   <body id="body">
-    <p>
-
-    </p>
+    <p></p>
     <div id="preloader" style="display: none">
-      <div class="loder-box">
+      <div class="loader-box">
         <div class="battery"></div>
       </div>
     </div>
@@ -153,8 +148,8 @@
     </header>
 
     <main class="site-content" role="main">
+      <!-- anterior slider -->
       <section id="home-slider" style="height: 647px">
-
         <div id="slider" class="sl-slider-wrapper" style="height: 647px">
           <div class="sl-slider" style="width: 1366px; height: 647px">
             <div class="sl-slides-wrapper">
@@ -179,10 +174,12 @@
                         <span class="slide-texto"
                           >Nuestra empresa, dedicada al servicio de
                           mantenimiento preventivo, predictivo y correctivo de
-                          clima artificial <br />
+                          clima artificial
+                          <br />
                           así como desarrollo de proyectos HVAC</span
                         >
-                        <!-- <a href="#" class="btn btn-blue btn-effect">Mas</a>-->
+                        <!-- comentar sig linea -->
+                        <!-- <a href="#" class="btn btn-blue btn-effect">Mas</a> -->
                       </div>
                     </div>
                   </div>
@@ -301,13 +298,17 @@
             <span class=""></span>
           </nav>
         </div>
+
         <!-- /slider-wrapper -->
       </section>
 
       <section id="about">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 wow animated fadeInLeft">
+            <div
+              class="col-md-4 wow animated fadeInLeft animated"
+              style="visibility: visible; animation-name: fadeInLeft"
+            >
               <div class="recent-works">
                 <h3>TERMODINAMICA DE MEXICO</h3>
                 <div
@@ -322,8 +323,8 @@
                         width: 2160px;
                         left: 0px;
                         display: block;
-                        transform: translate3d(0px, 0px, 0px);
                         transition: all 1000ms ease 0s;
+                        transform: translate3d(0px, 0px, 0px);
                       "
                     >
                       <div class="owl-item" style="width: 360px">
@@ -411,7 +412,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-7 col-md-offset-1 wow animated fadeInRight">
+            <div
+              class="col-md-7 col-md-offset-1 wow animated fadeInRight animated"
+              style="visibility: visible; animation-name: fadeInRight"
+            >
               <div class="welcome-block">
                 <h3>Bienvenido</h3>
                 <div class="message-body">
@@ -641,952 +645,6 @@
             <br />
             <br />
             <div id="gr_iguala" class="container">
-              <iframe
-                class="chartjs-hidden-iframe"
-                style="
-                  display: block;
-                  overflow: hidden;
-                  border: 0px none;
-                  margin: 0px;
-                  inset: 0px;
-                  height: 100%;
-                  width: 100%;
-                  position: absolute;
-                  pointer-events: none;
-                  z-index: -1;
-                "
-                tabindex="-1"
-              >
-                #document
-                <!DOCTYPE html>
-                <html id="facebook" class="no_svg" lang="es">
-                  <head>
-                    <meta charset="utf-8" />
-                    <meta
-                      name="referrer"
-                      content="origin-when-crossorigin"
-                      id="meta_referrer"
-                    />
-                    <script nonce="">
-                      __DEV__ = 0;
-                    </script>
-
-                    <title>Facebook</title>
-                    <style nonce="">
-                      ._32qa button {
-                        opacity: 0.4;
-                      }
-                      ._59ov {
-                        height: 100%;
-                        height: 910px;
-                        position: relative;
-                        top: -10px;
-                        width: 100%;
-                      }
-                      ._5ti_ {
-                        background-size: cover;
-                        height: 100%;
-                        width: 100%;
-                      }
-                      ._5tj2 {
-                        height: 900px;
-                      }
-                      ._2mm3 ._5a8u .uiBoxGray {
-                        background: #fff;
-                        margin: 0;
-                        padding: 12px;
-                      }
-                      body.plugin {
-                        background: transparent;
-                        font-family: Helvetica, Arial, sans-serif;
-                        line-height: 1.28;
-                        overflow: hidden;
-                        -moz-text-size-adjust: none;
-                      }
-                      .plugin,
-                      .plugin button,
-                      .plugin input,
-                      .plugin label,
-                      .plugin select,
-                      .plugin td,
-                      .plugin textarea {
-                        font-size: 11px;
-                      }
-                      html {
-                        touch-action: manipulation;
-                      }
-                      body {
-                        background: #fff;
-                        color: #1c1e21;
-                        direction: ltr;
-                        line-height: 1.34;
-                        margin: 0;
-                        padding: 0;
-                        unicode-bidi: embed;
-                      }
-                      body,
-                      button,
-                      input,
-                      label,
-                      select,
-                      td,
-                      textarea {
-                        font-family: Helvetica, Arial, sans-serif;
-                        font-size: 12px;
-                      }
-                      h1,
-                      h2,
-                      h3,
-                      h4,
-                      h5,
-                      h6 {
-                        color: #1c1e21;
-                        font-size: 13px;
-                        font-weight: 600;
-                        margin: 0;
-                        padding: 0;
-                      }
-                      h1 {
-                        font-size: 14px;
-                      }
-                      h4,
-                      h5,
-                      h6 {
-                        font-size: 12px;
-                      }
-                      p {
-                        margin: 1em 0;
-                      }
-                      b,
-                      strong {
-                        font-weight: 600;
-                      }
-                      a {
-                        color: #385898;
-                        cursor: pointer;
-                        text-decoration: none;
-                      }
-                      button {
-                        margin: 0;
-                      }
-                      a:hover {
-                        text-decoration: underline;
-                      }
-                      img {
-                        border: 0;
-                      }
-                      td,
-                      td.label {
-                        text-align: left;
-                      }
-                      dd {
-                        color: #000;
-                      }
-                      dt {
-                        color: #606770;
-                      }
-                      ul {
-                        list-style-type: none;
-                        margin: 0;
-                        padding: 0;
-                      }
-                      abbr {
-                        border-bottom: none;
-                        text-decoration: none;
-                      }
-                      hr {
-                        background: #dadde1;
-                        border-width: 0;
-                        color: #dadde1;
-                        height: 1px;
-                      }
-                      .clearfix:after {
-                        clear: both;
-                        content: '.';
-                        display: block;
-                        font-size: 0;
-                        height: 0;
-                        line-height: 0;
-                        visibility: hidden;
-                      }
-                      .clearfix {
-                        zoom: 1;
-                      }
-                      .datawrap {
-                        word-wrap: break-word;
-                      }
-                      .word_break {
-                        display: inline-block;
-                      }
-                      .ellipsis {
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        white-space: nowrap;
-                      }
-                      .aero {
-                        opacity: 0.5;
-                      }
-                      .column {
-                        float: left;
-                      }
-                      .center {
-                        margin-left: auto;
-                        margin-right: auto;
-                      }
-                      #facebook .hidden_elem {
-                        display: none !important;
-                      }
-                      #facebook .invisible_elem {
-                        visibility: hidden;
-                      }
-                      #facebook .accessible_elem {
-                        clip: rect(1px, 1px, 1px, 1px);
-                        height: 1px;
-                        overflow: hidden;
-                        position: absolute;
-                        white-space: nowrap;
-                        width: 1px;
-                      }
-                      #facebook .accessible_elem_offset {
-                        margin: -1px;
-                      }
-                      .direction_ltr {
-                        direction: ltr;
-                      }
-                      .direction_rtl {
-                        direction: rtl;
-                      }
-                      .text_align_ltr {
-                        text-align: left;
-                      }
-                      .text_align_rtl {
-                        text-align: right;
-                      }
-                      ._2tga {
-                        background: #4267b2;
-                        border: 1px solid #4267b2;
-                        color: #fff;
-                        cursor: pointer;
-                        font-family: Helvetica, Arial, sans-serif;
-                        margin: 0;
-                        position: relative;
-                        -moz-user-select: none;
-                        white-space: nowrap;
-                      }
-                      ._89n_ {
-                        background: #1877f2;
-                        border: 0;
-                      }
-                      ._2tga::-moz-focus-inner {
-                        border: 0;
-                        padding: 0;
-                      }
-                      ._2tga.active {
-                        background: #4080ff;
-                        border: 1px solid #4080ff;
-                      }
-                      ._2tga._4kae.active,
-                      ._2tga._4kae.active:hover {
-                        background: #577fbc;
-                        border: 1px solid #577fbc;
-                      }
-                      ._2tga._49ve {
-                        border-radius: 3px;
-                        font-size: 11px;
-                        height: 20px;
-                        padding: 0 0 0 2px;
-                      }
-                      ._2tga._8j9v {
-                        border-radius: 3px;
-                        font-size: 11px;
-                        height: 20px;
-                        padding: 0 6px;
-                      }
-                      ._2tga._3e2a {
-                        border-radius: 4px;
-                        font-size: 13px;
-                        height: 28px;
-                        padding: 0 4px 0 6px;
-                      }
-                      ._2tga._8j9w {
-                        border-radius: 4px;
-                        font-size: 13px;
-                        height: 28px;
-                        padding: 0 8px;
-                      }
-                      ._2tga._5n6f {
-                        border-top-left-radius: 0;
-                        border-top-right-radius: 0;
-                      }
-                      ._2tga:hover {
-                        background: #365899;
-                        border: 1px solid #365899;
-                      }
-                      ._89n_:hover {
-                        background: #1877f2;
-                        border: 0;
-                      }
-                      ._2tga:active {
-                        background: #577fbc;
-                        border: 1px solid #577fbc;
-                      }
-                      ._89n_:active {
-                        background: #1877f2;
-                        border: 0;
-                      }
-                      ._2tga:focus {
-                        outline-color: transparent;
-                        outline-style: none;
-                      }
-                      ._2tga.active:hover {
-                        background: #4080ff;
-                        border: 1px solid #4080ff;
-                      }
-                      ._8f1i {
-                        background-color: rgba(9, 30, 66);
-                        border-radius: inherit;
-                        height: 100%;
-                        left: 0;
-                        opacity: 0;
-                        position: absolute;
-                        top: 0;
-                        width: 100%;
-                      }
-                      ._8f1i:active {
-                        opacity: 0.3;
-                      }
-                      ._11qm {
-                        background: #fff;
-                        border: 1px solid #ccd0d5;
-                        color: #4267b2;
-                      }
-                      ._11qm:hover {
-                        background: #f5f6f7;
-                        border: 1px solid #ccd0d5;
-                      }
-                      ._11qm.active {
-                        border: 1px solid #4080ff;
-                        color: #fff;
-                      }
-                      ._3oi2 {
-                        background: #0084ff;
-                        border: 1px solid #0084ff;
-                        color: #fff;
-                      }
-                      ._3oi2:hover {
-                        background: #0077e5;
-                        border: 1px solid #0077e5;
-                      }
-                      ._3e2a ._3jn- {
-                        position: relative;
-                        top: -1px;
-                      }
-                      ._3jn- {
-                        height: 16px;
-                        vertical-align: middle;
-                        width: 16px;
-                      }
-                      ._3jn_ {
-                        background: none;
-                        display: none;
-                        height: 28px;
-                        left: -6px;
-                        position: absolute;
-                        top: -6px;
-                        width: 28px;
-                      }
-                      @keyframes burst {
-                        from {
-                          background-position: 0 0;
-                        }
-                        to {
-                          background-position: -616px 0;
-                        }
-                      }
-                      ._2tga.is_animating ._3jn_ {
-                        animation: burst 0.24s steps(22) forwards;
-                        background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/sFwkyVeh1iU.png)
-                          no-repeat;
-                        background-position: 0 0;
-                        background-size: 616px 28px;
-                        display: inline-block;
-                        zoom: 1;
-                      }
-                      ._49ve._2tga.is_animating ._3jn_ {
-                        left: -6px;
-                        position: relative;
-                        top: -6px;
-                      }
-                      ._49vg,
-                      ._5n2y {
-                        vertical-align: middle;
-                      }
-                      ._89n_._49ve ._49vg._8a19 {
-                        padding-top: 2px;
-                      }
-                      ._89n_._3e2a ._49vg._8a19 {
-                        padding-top: 1px;
-                      }
-                      ._2tga ._5n2y,
-                      ._2tga.active ._49vg,
-                      ._2tga.active.is_animating ._5n2y {
-                        display: none;
-                      }
-                      ._2tga ._49vg,
-                      ._2tga.active ._5n2y,
-                      ._2tga.active:hover ._4kag {
-                        display: inline-block;
-                        zoom: 1;
-                      }
-                      #facebook ._2tga span._49vh,
-                      #facebook ._2tga span._5n6h,
-                      ._49vh,
-                      ._5n6h {
-                        font-family: Helvetica, Arial, sans-serif;
-                        vertical-align: middle;
-                      }
-                      .gecko ._49ve ._49vh,
-                      .gecko ._49ve ._5n6h {
-                        position: relative;
-                        top: 1px;
-                      }
-                      ._49vh {
-                        font-weight: bold;
-                      }
-                      ._5n6h {
-                        font-weight: normal;
-                      }
-                      ._5n6j {
-                        border-radius: 3px;
-                        height: 20px;
-                        line-height: 20px;
-                      }
-                      ._5n6k {
-                        border-radius: 4px;
-                        height: 30px;
-                        line-height: 30px;
-                      }
-                      ._5n6l {
-                        background: #fff;
-                        border: 1px solid #8d949e;
-                        border-bottom: none;
-                        border-bottom-left-radius: 0;
-                        border-bottom-right-radius: 0;
-                        box-sizing: border-box;
-                        color: #1d2129;
-                        text-align: center;
-                        width: 100%;
-                      }
-                      ._2tga ._1pbq {
-                        height: 16px;
-                        width: 16px;
-                      }
-                      .no_svg ._2tga ._1pbq,
-                      .svg ._2tga ._1pbs {
-                        display: none;
-                      }
-                      ._2n-v ._49vh {
-                        padding-left: 2px;
-                      }
-                      ._8tm {
-                        padding: 0;
-                      }
-                      ._2phz {
-                        padding: 4px;
-                      }
-                      ._2ph- {
-                        padding: 8px;
-                      }
-                      ._2ph_ {
-                        padding: 12px;
-                      }
-                      ._2pi0 {
-                        padding: 16px;
-                      }
-                      ._2pi1 {
-                        padding: 20px;
-                      }
-                      ._40c7 {
-                        padding: 24px;
-                      }
-                      ._2o1j {
-                        padding: 36px;
-                      }
-                      ._6buq {
-                        padding-bottom: 0;
-                        padding-top: 0;
-                      }
-                      ._2pi2 {
-                        padding-bottom: 4px;
-                        padding-top: 4px;
-                      }
-                      ._2pi3 {
-                        padding-bottom: 8px;
-                        padding-top: 8px;
-                      }
-                      ._2pi4 {
-                        padding-bottom: 12px;
-                        padding-top: 12px;
-                      }
-                      ._2pi5 {
-                        padding-bottom: 16px;
-                        padding-top: 16px;
-                      }
-                      ._2pi6 {
-                        padding-bottom: 20px;
-                        padding-top: 20px;
-                      }
-                      ._2o1k {
-                        padding-bottom: 24px;
-                        padding-top: 24px;
-                      }
-                      ._2o1l {
-                        padding-bottom: 36px;
-                        padding-top: 36px;
-                      }
-                      ._6bua {
-                        padding-left: 0;
-                        padding-right: 0;
-                      }
-                      ._2pi7 {
-                        padding-left: 4px;
-                        padding-right: 4px;
-                      }
-                      ._2pi8 {
-                        padding-left: 8px;
-                        padding-right: 8px;
-                      }
-                      ._2pi9 {
-                        padding-left: 12px;
-                        padding-right: 12px;
-                      }
-                      ._2pia {
-                        padding-left: 16px;
-                        padding-right: 16px;
-                      }
-                      ._2pib {
-                        padding-left: 20px;
-                        padding-right: 20px;
-                      }
-                      ._2o1m {
-                        padding-left: 24px;
-                        padding-right: 24px;
-                      }
-                      ._2o1n {
-                        padding-left: 36px;
-                        padding-right: 36px;
-                      }
-                      ._iky {
-                        padding-top: 0;
-                      }
-                      ._2pic {
-                        padding-top: 4px;
-                      }
-                      ._2pid {
-                        padding-top: 8px;
-                      }
-                      ._2pie {
-                        padding-top: 12px;
-                      }
-                      ._2pif {
-                        padding-top: 16px;
-                      }
-                      ._2pig {
-                        padding-top: 20px;
-                      }
-                      ._2owm {
-                        padding-top: 24px;
-                      }
-                      ._div {
-                        padding-right: 0;
-                      }
-                      ._2pih {
-                        padding-right: 4px;
-                      }
-                      ._2pii {
-                        padding-right: 8px;
-                      }
-                      ._2pij {
-                        padding-right: 12px;
-                      }
-                      ._2pik {
-                        padding-right: 16px;
-                      }
-                      ._2pil {
-                        padding-right: 20px;
-                      }
-                      ._31wk {
-                        padding-right: 24px;
-                      }
-                      ._2phb {
-                        padding-right: 32px;
-                      }
-                      ._au- {
-                        padding-bottom: 0;
-                      }
-                      ._2pim {
-                        padding-bottom: 4px;
-                      }
-                      ._2pin {
-                        padding-bottom: 8px;
-                      }
-                      ._2pio {
-                        padding-bottom: 12px;
-                      }
-                      ._2pip {
-                        padding-bottom: 16px;
-                      }
-                      ._2piq {
-                        padding-bottom: 20px;
-                      }
-                      ._2o1p {
-                        padding-bottom: 24px;
-                      }
-                      ._4gao {
-                        padding-bottom: 32px;
-                      }
-                      ._1cvx {
-                        padding-left: 0;
-                      }
-                      ._2pir {
-                        padding-left: 4px;
-                      }
-                      ._2pis {
-                        padding-left: 8px;
-                      }
-                      ._2pit {
-                        padding-left: 12px;
-                      }
-                      ._2piu {
-                        padding-left: 16px;
-                      }
-                      ._2piv {
-                        padding-left: 20px;
-                      }
-                      ._2o1q {
-                        padding-left: 24px;
-                      }
-                      ._2o1r {
-                        padding-left: 36px;
-                      }
-                      .inlineBlock {
-                        display: -moz-inline-box;
-                        display: inline-block;
-                        zoom: 1;
-                      }
-                      ._4jnw {
-                        margin: 0;
-                      }
-                      ._3-8h {
-                        margin: 4px;
-                      }
-                      ._3-8i {
-                        margin: 8px;
-                      }
-                      ._3-8j {
-                        margin: 12px;
-                      }
-                      ._3-8k {
-                        margin: 16px;
-                      }
-                      ._3-8l {
-                        margin: 20px;
-                      }
-                      ._2-5b {
-                        margin: 24px;
-                      }
-                      ._1kbd {
-                        margin-bottom: 0;
-                        margin-top: 0;
-                      }
-                      ._3-8m {
-                        margin-bottom: 4px;
-                        margin-top: 4px;
-                      }
-                      ._3-8n {
-                        margin-bottom: 8px;
-                        margin-top: 8px;
-                      }
-                      ._3-8o {
-                        margin-bottom: 12px;
-                        margin-top: 12px;
-                      }
-                      ._3-8p {
-                        margin-bottom: 16px;
-                        margin-top: 16px;
-                      }
-                      ._3-8q {
-                        margin-bottom: 20px;
-                        margin-top: 20px;
-                      }
-                      ._2-ox {
-                        margin-bottom: 24px;
-                        margin-top: 24px;
-                      }
-                      ._1a4i {
-                        margin-left: 0;
-                        margin-right: 0;
-                      }
-                      ._3-8r {
-                        margin-left: 4px;
-                        margin-right: 4px;
-                      }
-                      ._3-8s {
-                        margin-left: 8px;
-                        margin-right: 8px;
-                      }
-                      ._3-8t {
-                        margin-left: 12px;
-                        margin-right: 12px;
-                      }
-                      ._3-8u {
-                        margin-left: 16px;
-                        margin-right: 16px;
-                      }
-                      ._3-8v {
-                        margin-left: 20px;
-                        margin-right: 20px;
-                      }
-                      ._6bu9 {
-                        margin-left: 24px;
-                        margin-right: 24px;
-                      }
-                      ._5soe {
-                        margin-top: 0;
-                      }
-                      ._3-8w {
-                        margin-top: 4px;
-                      }
-                      ._3-8x {
-                        margin-top: 8px;
-                      }
-                      ._3-8y {
-                        margin-top: 12px;
-                      }
-                      ._3-8z {
-                        margin-top: 16px;
-                      }
-                      ._3-8- {
-                        margin-top: 20px;
-                      }
-                      ._4aws {
-                        margin-top: 24px;
-                      }
-                      ._2-jz {
-                        margin-right: 0;
-                      }
-                      ._3-8_ {
-                        margin-right: 4px;
-                      }
-                      ._3-90 {
-                        margin-right: 8px;
-                      }
-                      ._3-91 {
-                        margin-right: 12px;
-                      }
-                      ._3-92 {
-                        margin-right: 16px;
-                      }
-                      ._3-93 {
-                        margin-right: 20px;
-                      }
-                      ._y8t {
-                        margin-right: 24px;
-                      }
-                      ._5emk {
-                        margin-bottom: 0;
-                      }
-                      ._3-94 {
-                        margin-bottom: 4px;
-                      }
-                      ._3-95 {
-                        margin-bottom: 8px;
-                      }
-                      ._3-96 {
-                        margin-bottom: 12px;
-                      }
-                      ._3-97 {
-                        margin-bottom: 16px;
-                      }
-                      ._3-98 {
-                        margin-bottom: 20px;
-                      }
-                      ._20nr {
-                        margin-bottom: 24px;
-                      }
-                      ._av_ {
-                        margin-left: 0;
-                      }
-                      ._3-99 {
-                        margin-left: 4px;
-                      }
-                      ._3-9a {
-                        margin-left: 8px;
-                      }
-                      ._3-9b {
-                        margin-left: 12px;
-                      }
-                      ._3-9c {
-                        margin-left: 16px;
-                      }
-                      ._3-9d {
-                        margin-left: 20px;
-                      }
-                      ._4m0t {
-                        margin-left: 24px;
-                      }
-                      ._a82f {
-                        margin-left: 28px;
-                      }
-                      ._li._li._li {
-                        overflow: initial;
-                      }
-                      ._aj3e,
-                      ._aj3e video {
-                        display: block;
-                        height: 4px;
-                        left: 0;
-                        position: absolute;
-                        top: 0;
-                        width: 2px;
-                        z-index: -1;
-                      }
-                      ._910i._li._li._li {
-                        overflow: hidden;
-                      }
-                      ._9053 ._li._li._li {
-                        overflow-x: hidden;
-                      }
-                      ._72b0 {
-                        position: relative;
-                        z-index: 0;
-                      }
-                      .registration ._li._9bpz {
-                        background-color: #f0f2f5;
-                      }
-                      ._li ._9bp- {
-                        padding-top: 5px;
-                        text-align: center;
-                      }
-                      ._li ._9bp- .fb_logo {
-                        height: 100px;
-                      }
-                      ._li ._a66f {
-                        padding-top: 5px;
-                        text-align: center;
-                      }
-                      ._li ._a66f .fb_logo {
-                        height: 80px;
-                        padding-top: 72px;
-                      }
-                      .uiLayer {
-                        outline: none;
-                      }
-                      ._5f0v {
-                        outline: none;
-                      }
-                      ._3oxt {
-                        outline: 1px dotted #3b5998;
-                        outline-color: invert;
-                      }
-                      ._4qba {
-                        font-style: inherit;
-                      }
-                      ._4qbb,
-                      ._4qbc,
-                      ._4qbd {
-                        background: none;
-                        font-style: inherit;
-                        padding: 0;
-                        width: auto;
-                      }
-                      ._4qbd {
-                        border-bottom: 1px solid #f99;
-                      }
-                      ._4qbb,
-                      ._4qbc {
-                        border-bottom: 1px solid #999;
-                      }
-                      ._4qbb:hover,
-                      ._4qbc:hover,
-                      ._4qbd:hover {
-                        background-color: #fcc;
-                        border-top: 1px solid #ccc;
-                        cursor: help;
-                      }
-                    </style>
-
-<!-- aqui va face6.js -->
-                    <!-- aqui va ServerJSQueue -->
-                    
-                    <script nonce="">
-                      (function () {
-                        var a = document.createElement('div'),
-                          b = document.createElement('svg');
-                        a.appendChild(b);
-                        if (
-                          a.firstChild &&
-                          a.firstChild.namespaceURI ===
-                            'http://www.w3.org/2000/svg'
-                        ) {
-                          b = document.documentElement;
-                          b.className = b.className.replace('no_svg', 'svg');
-                        }
-                      })();
-                    </script>
-                  </head>
-                  <body dir="ltr" class="plugin gecko x1 Locale_es_LA">
-                    <div class="_li">
-                      <div class="pluginSkinLight pluginFontHelvetica">
-                        <div>
-                          <div class="inlineBlock" id="u_0_0_VR">
-
-                            <!-- <a
-                              class="_2vmz"
-                              href="/sharer/sharer.php?kid_directed_site=0&amp;sdk=joey&amp;u=http%3A%2F%2Fwww.termodinamicademexico.com%2Findex.html%23logotipo&amp;display=popup&amp;ref=plugin&amp;src=share_button"
-                              target="_blank"
-                              id="u_0_1_FH"
-                              ><div>
-                                <button
-                                  id="icon-button"
-                                  type="submit"
-                                  class="inlineBlock _2tga _89n_ _8j9v"
-                                >
-                                  <span class="_8f1i"></span>
-                                  <div class="">
-                                    <span class="_3jn- inlineBlock _2v7"
-                                      ><span class="_3jn_"></span
-                                      ><span class="_49vg _8a19"
-                                        ><img
-                                          class="img"
-                                          style="vertical-align: middle"
-                                          src="https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/GzgedhmzSQa.png?_nc_eui2=AeE6ZR8KOlO1gl9-jlsfnUeYSQ_8jbj5y5pJD_yNuPnLmgfKW-zcVQRnToeJXY3dIQeoDA0Bd-RS58qwW7fkAkg9"
-                                          alt=""
-                                          width="12"
-                                          height="12" /></span></span
-                                    ><span class="_49vh _2pi7">Compartir</span
-                                    ><span class="_5n6h _2pih" id="u_0_2_wJ"
-                                      >6</span
-                                    >
-                                  </div>
-                                </button>
-                              </div></a
-                            > -->
-
-                          </div>
-                           <!-- Aqui iba el face3.js -->
-                        </div>
-                      </div>
-                    </div>
-                    <!-- aqui iba face4.js -->
-
-                    <!-- aqui iba face5.js -->
-                    <!-- aqui va ServerJSQueue2.js -->
-                  </body>
-                </html>
-              </iframe>
-
-
               <canvas
                 id="grafica"
                 style="display: block; width: 1140px; height: 570px"
@@ -1872,7 +930,7 @@
           <h1>NUESTROS PRINCIPALES CLIENTES</h1>
           <br />
           <img
-            src="assets/clientes..png"
+            src="assets/clientes.png"
             alt=""
             class="container img-responsive"
           />
@@ -1913,11 +971,6 @@
         </div>
       </section>
       <!-- fin de Contacto -->
-
-      <section id="google-map">
-        <div id="map-canvas" class="wow animated fadeInUp"></div>
-        <div id="mapa"></div>
-      </section>
     </main>
 
     <footer id="footer">
@@ -1926,43 +979,6 @@
           <div class="footer-content">
             <div class="wow animated fadeInDown">
               <p>Acerca de</p>
-            </div>
-
-            <div class="footer-social">
-              <ul>
-                <div
-                  class="fb-share-button fb_iframe_widget"
-                  data-href="http://www.termodinamicademexico.com/index.html#logotipo"
-                  data-type="button_count"
-                  fb-xfbml-state="rendered"
-                  fb-iframe-plugin-query="app_id=&amp;container_width=390&amp;href=http%3A%2F%2Fwww.termodinamicademexico.com%2Findex.html%23logotipo&amp;locale=es_LA&amp;sdk=joey&amp;type=button_count"
-                >
-                  <span
-                    style="vertical-align: bottom; width: 99px; height: 20px"
-                    ><iframe
-                      name="f200e70e1de6b46"
-                      data-testid="fb:share_button Facebook Social Plugin"
-                      title="fb:share_button Facebook Social Plugin"
-                      allowtransparency="true"
-                      allowfullscreen="true"
-                      scrolling="no"
-                      allow="encrypted-media"
-                      style="
-                        border: medium none;
-                        visibility: visible;
-                        width: 99px;
-                        height: 20px;
-                      "
-                      src="assets/share_button.html"
-                      class=""
-                      width="1000px"
-                      height="1000px"
-                      frameborder="0"
-                    >
-                    </iframe
-                  ></span>
-                </div>
-              </ul>
             </div>
 
             <p>
@@ -1986,7 +1002,7 @@
         </div>
       </div>
     </footer>
-   
+
     <!-- jQuery 
 		================================================== -->
     <!-- Main jQuery -->
@@ -2002,49 +1018,12 @@
     <script src="assets/owl.carousel.min.js"></script>
     <!-- jquery  -->
     <script src="assets/jquery.easing.min.js"></script>
-    <!-- Pantalla completa slider -->
+    <!-- Pantalla completa slider antiguo -->
     <script src="assets/jquery.slitslider.js"></script>
     <script src="assets/jquery.ba-cond.min.js"></script>
     <!-- onscroll animationes -->
     <script src="assets/wow.min.js"></script>
     <!-- Funciones personalizadas -->
     <script src="assets/main.js"></script>
-    <div id="fb-root" class="fb_reset">
-      <div style="position: absolute; top: -10000px; width: 0px; height: 0px">
-        <div></div>
-      </div>
-    </div>
-
-
-
-        <iframe
-          id="aswift_0"
-          name="aswift_0"
-          style="
-            left: 0;
-            position: absolute;
-            top: 0;
-            border: 0;
-            width: undefinedpx;
-            height: undefinedpx;
-          "
-          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-          marginwidth="0"
-          marginheight="0"
-          vspace="0"
-          hspace="0"
-          allowtransparency="true"
-          scrolling="no"
-          src="assets/ads.html"
-          data-google-container-id="a!1"
-          data-load-complete="true"
-          frameborder="0"
-        ></iframe></div></ins
-    ><iframe
-      src="assets/aframe.html"
-      style="display: none"
-      width="0"
-      height="0"
-    ></iframe>
   </body>
 </html>

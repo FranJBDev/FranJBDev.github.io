@@ -444,6 +444,7 @@
         this.isPlaying = false;
         this.options.autoplay = false;
       }
+      console.log('stopSlideshow');
     },
     _destroy: function (callback) {
       this.$el.off('.slitslider').removeData('slitslider');
@@ -498,6 +499,7 @@
     },
     // public method: shows previous slide
     previous: function () {
+      console.log('click izquierda en slitslider');
       this._stopSlideshow();
       this._navigate('prev');
     },
